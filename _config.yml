@@ -1,0 +1,15 @@
+name: Sachin Tyagi's blog
+url: http://sachintyagi22.github.io
+
+permalink: /:year-:month-:day/:title.html
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  fenced_code_blocks: true
+
+plugins: [jekyll-paginate]
+paginate: 5
+
+github_username: sachintyagi22
+twitter_username: sachin_tyagi
